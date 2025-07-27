@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 💼 **JobPortal – Full Stack Job Portal Website** 🌐
 
 ## 💡 **Description**
@@ -40,3 +41,6 @@ With intuitive features like job posting management, search filters, and paginat
 * **🏢 Employers & Recruiters:** Organizations and recruiters wanting to post and manage job openings effectively.
 * **🧑‍💼 Admins:** Platform managers who need tools to oversee user activity and content.
 * **🌍 General Users:** Anyone interested in discovering or sharing job opportunities on a reliable and modern portal.
+=======
+# JOB-PORTAL
+>>>>>>> fecc6dee0cbeaf85d09fa339259895b62817ee9b
