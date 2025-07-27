@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 💼 **JobPortal – Full Stack Job Portal Website** 🌐
 
 ## 💡 **Description**
@@ -44,3 +45,6 @@ With intuitive features like job posting management, search filters, and paginat
 =======
 # JOB-PORTAL
 >>>>>>> fecc6dee0cbeaf85d09fa339259895b62817ee9b
+=======
+# JOB-PORTAL
+>>>>>>> 79f44ecf8a4d70d1db1eb1813471f2085105ce42
