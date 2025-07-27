@@ -11,17 +11,30 @@ import Cloudinary from "./src/utils/cloudinary.js";
 
 const app = express();
 
+// Middleware
 app.use(bodyParser.json());
-app.use(cors());
+app.use(express.json());
 
+// ✅ Fix: Allow frontend to call backend
+app.use(
+  cors({
+    origin: "https://job-portal-1-tvbf.onrender.com", // 🔁 Replace with your deployed frontend URL
+    credentials: true,
+  })
+);
+
+// ✅ Connect to database and cloudinary
 connectDB();
 Cloudinary();
 
-app.get("/", (req, res) => res.send("api is working"));
+// ✅ Test route
+app.get("/", (req, res) => res.send("API is working"));
 
+// ✅ Routes
 app.use("/user", userRoutes);
 app.use("/company", companyRoutes);
 app.use("/job", jobRoutes);
 
+// ✅ Start server
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🌐Server is running on port ${PORT}`));
+app.listen(PORT, () => console.log(`🌐 Server is running on port ${PORT}`));
