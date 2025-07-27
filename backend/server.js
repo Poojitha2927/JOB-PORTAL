@@ -18,7 +18,7 @@ app.use(express.json());
 // ✅ Fix: Allow frontend to call backend
 app.use(
   cors({
-    origin: "https://job-portal-1-tvbf.onrender.com", // 🔁 Replace with your deployed frontend URL
+    origin: "https://frontend-yydz.onrender.com", // 🔁 Replace with your deployed frontend URL
     credentials: true,
   })
 );
